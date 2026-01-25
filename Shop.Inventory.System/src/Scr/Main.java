@@ -38,13 +38,13 @@ public class Main {
                 //متغير السعر الكلي
                 double finalPrice = total - discount;
                 //اوامر طباعة الفاتورة
-                System.out.println("\n============== INVOICE ==============");
+                System.out.println("\n============== INVOICE ===============");
                 System.out.println("Product Name   : " + productName);
                 System.out.println("Unit Price     : "+ unitPrice);
                 System.out.println("Quantity       : "+ quantity);
-                System.out.println("-------------------------------------");
+                System.out.println("--------------------------------------");
                 System.out.println("Discount       : "+ discount);
                 System.out.println("Final Price    : "+ finalPrice);
-                System.out.println("=====================================");
+                System.out.println("======================================");
             }
         }
