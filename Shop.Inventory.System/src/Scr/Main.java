@@ -12,7 +12,7 @@ public class Main {
                 System.out.println("======================================");
                 System.out.println("-------[SHOP INVENTORY SYSTEM]--------");
                 System.out.println("======================================");
-                //أدخالات المستخدم الكبير
+                //أدخالات المستخدم
                 System.out.print(">> Enter Product Name  : ");
                 String productName = input.nextLine();
 
