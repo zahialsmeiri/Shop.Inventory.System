@@ -1,5 +1,4 @@
 
-package scr;
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -18,14 +17,14 @@ public class Main {
 
                 System.out.print(">> Enter Unit Price  : ");
                 double unitPrice = input.nextDouble();
-
+                
                 System.out.print(">> Enter Quantity Purchased : ");
                 int quantity = input.nextInt();
                 //دالة الشرط لادخالات السعر و الكمية
                 if (unitPrice <= 0 || quantity <= 0) {
                     System.out.println("\n[ ERROR ] Invalid Input Detected");
                     System.out.println("--------------------------------------");
-                    System.out.println("• Price and quantity must be > 0");
+                    System.out.println(" Price and quantity must be > 0");
                     return;
                 }
                 //تعريف متغير السعر والخصم
