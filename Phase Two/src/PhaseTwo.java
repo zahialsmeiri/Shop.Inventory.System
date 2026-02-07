@@ -74,8 +74,7 @@ public class PhaseTwo {
                 System.out.println("Invalid menu choice. Please select a valid option.");
             }
 
-            System.out.println();
-
+          
         } while (choice != 0);
 
         input.close();
