@@ -140,16 +140,6 @@ It emphasizes:
 
 ---
 
-## ⚠️ Academic Integrity
-
-- All work must be original  
-- Students must understand and explain their own code  
-- Using AI without understanding is considered misconduct  
-
-Academic honesty is strictly enforced.
-
----
-
 ## 🛠 Technologies
 
 - Language: **Java**  
