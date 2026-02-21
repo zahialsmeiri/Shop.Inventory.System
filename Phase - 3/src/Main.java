@@ -1,10 +1,12 @@
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Main {
 
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
+        Locale input = Locale.US;
 
         Product[] inventory = new Product[100];
         int count = 0;
@@ -96,7 +98,7 @@ public class Main {
                     break;
 
                 case 4:
-                    System.out.println("Goodbye!");
+                    System.out.println("bye!");
                     return;
 
                 default:
@@ -105,3 +107,4 @@ public class Main {
         }
     }
 }
+
